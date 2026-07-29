@@ -103,10 +103,10 @@ Shared clinical safeguards carried over from stage 5: 8-feature optimized list, 
 ## Repo Structure
 
 ```
-1_feature_extraction.md          # raw ECG → windowed feature CSV
-2_baseline_model_test.md         # RF baseline, full feature set
-3_feature_selection.md           # Wilcoxon-based feature pruning
-4_optimized_features_test.md     # RF re-test on pruned features
-5_traditional_models.md          # RF / SVM / XGBoost / LightGBM, calibrated
-6_GNN_complete.md                # T-GCN / T-GIN / FS-GCN / FS-GIN, 3 losses each
+1_feature_extraction.ipynb          # raw ECG → windowed feature CSV
+2_baseline_model_test.ipynb         # RF baseline, full feature set
+3_feature_selection.ipynb           # Wilcoxon-based feature pruning
+4_optimized_features_test.ipynb     # RF re-test on pruned features
+5_traditional_models.ipynb          # RF / SVM / XGBoost / LightGBM, calibrated
+6_GNN_complete.ipynb                # T-GCN / T-GIN / FS-GCN / FS-GIN, 3 losses each
 ```
